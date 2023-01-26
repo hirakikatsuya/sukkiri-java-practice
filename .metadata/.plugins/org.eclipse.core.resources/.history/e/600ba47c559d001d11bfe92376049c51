@@ -1,0 +1,7 @@
+package practice;
+
+public class Practice4_2 {
+	public static void main(String[] args) {
+		int[] money = new int[121902,8302,55100];
+	}
+}

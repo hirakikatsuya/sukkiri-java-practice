@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runner version="1.0.0">
+    <category expanded="true" name="カテゴリーなし">
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Chapter16_1main"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Practice3_3"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Practice3_4"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Practice3_5"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Practice3_6"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Practice4_2"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Practice4_4"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Practice5_1"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Practice5_2"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Practice5_4"/>
+    </category>
+</runner>

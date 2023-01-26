@@ -1,0 +1,9 @@
+package practice;
+public class Chapter16_1main {
+	public static void main(String[] args) throws Exception {
+		doWarusa();
+		doTogame();
+		comment.Kouhan.callDeae();
+		comment.Kouhan.showMondokoro();
+	}
+}
