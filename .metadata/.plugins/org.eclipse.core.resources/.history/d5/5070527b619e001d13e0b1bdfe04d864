@@ -1,0 +1,6 @@
+package ensyu;
+
+public class Ensyu6 {
+	int n = new java.util.Scanner(System.in).newInt();
+
+}
