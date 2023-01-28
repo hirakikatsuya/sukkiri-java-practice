@@ -1,0 +1,14 @@
+package ensyu;
+
+public class Ensyu7 {
+	public static void main(String[]args) {
+//	System.out.println("身長(cm)を入力してください");
+//	int height = new java.util.Scanner(System.in).nextInt();
+	double height = 1.64;
+	System.out.println("体重(kg)を入力してください");
+//	int weight = new java.util.Scanner(System.in).nextInt();
+	double weight = 78;
+	double BMI = weight/height/height;
+	System.out.println("BMIは"+BMI+"です");
+	}
+}

@@ -1,0 +1,36 @@
+package ensyu;
+
+public class Ensyu9 {
+
+}
+
+class CoinCase{
+	private int yen500=0;
+	private int yen100=0;
+	private int yen50=0;
+	private int yen10=0;
+	private int yen5=0;
+	private int yen1=0;
+
+	public void AddCoins(int kind,int count){
+		switch(kind) {
+		case 500:
+			yen500 += count;
+			break;
+		case 100:
+			yen100 += count;
+			break;
+		case 50:
+			yen50 += count;
+			break;
+		case 10:
+			yen10 += count;
+			break;
+		case 5:
+			yen5 += count;
+			break;
+		case 1:
+			yen1 += count;
+		}
+	}
+}

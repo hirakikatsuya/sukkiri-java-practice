@@ -1,0 +1,19 @@
+package ensyu;
+
+public class Ensyu9 {
+
+}
+
+class CoinCase{
+	private int yeo500=0;
+	private int yeo100=0;
+	private int yeo50=0;
+	private int yeo10=0;
+	private int yeo5=0;
+	private int yeo1=0;
+
+
+	public int GetCoin(){
+
+	}
+}
