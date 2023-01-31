@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="式 &apos;new java.util.Scanner(System.in)&apos; からローカル変数 &apos;scanner&apos; を抽出します&#x0A;- 元のプロジェクト: &apos;sukkiri-java-practice&apos;&#x0A;- 変数名: &apos;scanner&apos;&#x0A;- 宛先メソッド: &apos;ensyu.Ensyu18.main(...)&apos;&#x0A;- 変数式: &apos;new java.util.Scanner(System.in)&apos;&#x0A;- 式の出現箇所を変数で置換" description="ローカル変数 &apos;scanner&apos; を抽出します" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;ensyu{Ensyu18.java" name="scanner" replace="true" selection="127 32" stamp="1675175161204" varType="false" version="1.0"/>
+</session>

@@ -1,0 +1,28 @@
+package ensyu;
+
+public class Ensyu22 {
+	public static void main(String[]args) {
+
+	}
+	public static int priNum(int num) {
+		for(int i = 2 ; i <= (num/2);i++) {
+			if(num% i == 0 ) {
+				break;
+			}
+		}
+		if(i>(num/2))
+		return
+	}
+}
+int value = scanner.nextInt();
+int n;
+for (n = 2; n <= (value / 2); n++) {
+	if (value % n == 0) {
+		break;
+	}
+}
+if (n > (value / 2)) {
+	System.out.println(value + "は素数です");
+} else {
+	System.out.println(value + "は素数ではありません");
+}

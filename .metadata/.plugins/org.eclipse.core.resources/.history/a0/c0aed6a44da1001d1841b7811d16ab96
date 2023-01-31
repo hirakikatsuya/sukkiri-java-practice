@@ -1,0 +1,10 @@
+package ensyu;
+
+public class Ensyu17 {
+	public static void main(String[] args) {
+		int fibo = 0;
+		while(fibo<1000) {
+
+		}
+	}
+}
