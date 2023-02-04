@@ -1,0 +1,7 @@
+package ensyu;
+
+public class Ensyu30 {
+	public static void main(String[]args) {
+		int i = new java.util.Random().nextInt();
+	}
+}

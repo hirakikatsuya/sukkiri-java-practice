@@ -1,0 +1,14 @@
+package ensyu;
+
+public class Ensyu26 {
+	public static void main(String[] args) {
+		int i = new java.util.Random().nextInt(99) + 1;
+		while (i > 0) {
+			if (i % 10 == 0) {
+				break;
+			}
+			System.out.println(i);
+		}
+		System.out.println("終了します");
+	}
+}

@@ -1,0 +1,12 @@
+package ensyu;
+
+public class Ensyu32 {
+	public static void main(String[] args) {
+		int i = new java.util.Random().nextInt(1000) + 1;
+		for (int p = 1; p >= i; p--) {
+			if (i % p == 0) {
+				System.out.println(p);
+			}
+		}
+	}
+}

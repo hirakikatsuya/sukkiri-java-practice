@@ -1,0 +1,16 @@
+package ensyu;
+
+public class Ensyu32 {
+	public static void main(String[] args) {
+		int a = 0;
+		for (int p = 1; p <= 10000; p++) {
+			for (int q = 1; q <= p; q++) {
+				if (p % q == 0) {
+					a += q;
+				}
+			}
+			System.out.println(a);
+			a= 0;
+		}
+	}
+}

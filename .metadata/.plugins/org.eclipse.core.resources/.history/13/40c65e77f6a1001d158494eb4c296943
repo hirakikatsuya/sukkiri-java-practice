@@ -1,0 +1,14 @@
+package ensyu;
+
+public class Ensyu24 {
+	public static void main(String[] args) {
+		for (int i = 0; i < 10; i++) {
+			for(int o = 0;o<10;o++) {
+				if(o==i) {
+					System.out.print("□");
+				}
+				System.out.print("■");
+			}
+		}
+	}
+}

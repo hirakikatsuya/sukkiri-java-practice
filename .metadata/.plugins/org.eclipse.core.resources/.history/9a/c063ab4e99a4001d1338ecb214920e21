@@ -1,0 +1,15 @@
+package ensyu;
+
+public class Ensyu30 {
+	public static void main(String[] args) {
+		int num = new java.util.Random().nextInt(1000) + 1;
+		System.out.println(num);
+		int digits = 0;
+		while (num > 0) {
+			num /= 10;
+			digits++;
+		}
+
+		System.out.println(digits);
+	}
+}

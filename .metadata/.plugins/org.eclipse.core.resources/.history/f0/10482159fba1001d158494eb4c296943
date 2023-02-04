@@ -1,0 +1,10 @@
+package ensyu;
+
+public class Ensyu28 {
+	public static void main(String[]args) {
+		int array[];
+		for(int i = 0; i<7;i++) {
+			array[i]=new java.util.Random().nextInt(10)+1;
+		}
+	}
+}
