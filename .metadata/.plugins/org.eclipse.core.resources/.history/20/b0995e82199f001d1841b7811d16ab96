@@ -1,9 +1,0 @@
-package ensyu;
-
-public class Ensyu7 {
-	public static void main(String[]args) {
-	System.out.println("身長を入力してください");
-	int height = new java.util.Scanner(System.in).nextInt();
-	int
-	}
-}

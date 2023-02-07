@@ -1,9 +1,0 @@
-package ensyu;
-import ensyu.Dog;
-public class Ensyu8 {
-	public static void main(String[] args) {
-		Dog myDog = new Dog();
-		myDog.SetName("name");
-		myDog.ShowProfile();
-	}
-}

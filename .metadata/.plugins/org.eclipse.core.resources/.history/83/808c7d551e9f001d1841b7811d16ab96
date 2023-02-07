@@ -1,7 +1,0 @@
-package ensyu;
-
-public class Ensyu8 {
-	public static void main(String[]args) {
-		Dog.SetName("name");
-	}
-}

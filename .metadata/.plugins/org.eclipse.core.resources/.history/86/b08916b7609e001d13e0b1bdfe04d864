@@ -1,8 +1,0 @@
-package ensyu;
-
-public class Ensyu5 {
-	public static void main(String[] args) {
-		int n = new Java.util.Scanner(System.in).newInt();
-
-	}
-}
