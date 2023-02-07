@@ -1,0 +1,7 @@
+package practice;
+
+public class Cleric {
+	String name;
+	int hp;
+	final int MAXHP = 50;
+}

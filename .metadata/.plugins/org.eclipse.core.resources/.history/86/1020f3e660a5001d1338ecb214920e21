@@ -1,0 +1,16 @@
+package ensyu;
+
+import java.util.Arrays;
+
+public class Ensyu32 {
+	public static void main(String[] args) {
+		int[] fibo = new int[10];
+		fibo[0] = 0;
+		fibo[1] = 1;
+		fibo[2] = fibo[0] + fibo[1];
+		for (int i = 3; i < 10; i++) {
+			fibo[i] = fibo[i - 1] + fibo[i - 2] + fibo[i - 3];
+		}
+		System.out.println(Arrays.toString(fibo));
+	}
+}

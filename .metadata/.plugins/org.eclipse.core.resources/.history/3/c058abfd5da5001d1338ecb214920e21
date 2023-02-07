@@ -1,0 +1,15 @@
+package ensyu;
+
+public class Ensyu32 {
+	public static void main(String[] args) {
+		int a = 0;
+		while (a < 30) {
+			if (a == 0) {
+				System.out.println(a);
+			}
+			if (a == 1) {
+				System.out.println(a);
+			}
+		}
+	}
+}

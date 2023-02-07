@@ -6,14 +6,16 @@ public class Practice3_6 {
 		int ans = new java.util.Random().nextInt(10);
 		for (int i = 0; i < 5; i++) {
 			System.out.println("0〜9の数字を入力してください");
-			int num = new java.util.Scanner(System.in).nextInt();
-			if (ans == num) {
-				System.out.println("アタリ！");
-				break;
-			}else {
-				System.out.println("ちがいます");
+			try (java.util.Scanner scanner = new java.util.Scanner(System.in)) {
+				int num = scanner.nextInt();
+				if (ans == num) {
+					System.out.println("アタリ！");
+					break;
+				} else {
+					System.out.println("ちがいます");
+				}
 			}
+			System.out.println("ゲームを終了します");
 		}
-		System.out.println("ゲームを終了します");
 	}
 }
