@@ -30,14 +30,17 @@ public class Main {
 
 		PoisonMatango pm1 = new PoisonMatango('C');
 
+		Slime ss = new Slime();
+		Monster ms = new Slime();
+
 		System.out.println("現在の武器は" + h1.sword.name);
 		System.out.println("勇者" + h1.name + "を生み出しました!");
 		System.out.println("勇者" + h2.name + "を生み出しました!");
 		System.out.println("スーパー勇者" + sh1.name + "を生み出しました!");
-		h1.attack();
+		h1.attack(m1);
 		h1.slip();
 		sh1.fly();
-		sh1.attack();
+		sh1.attack(m1);
 		m1.run();
 		m2.run();
 		d.dance();
@@ -46,5 +49,7 @@ public class Main {
 		w.heal(h2);
 		h1.run();
 		sh1.run();
+		ss.run();
+		ms.run();
 	}
 }

@@ -1,11 +1,9 @@
 package rpg;
 
-public class Hero {
-	String name;
-	int hp;
+public class Hero extends Character {
 	Sword sword;
 
-	public void attack() {
+	public void attack(Matango m) {
 		System.out.println(this.name + "は" + this.sword.name + "で攻撃した！");
 		System.out.println("敵に" + this.sword.damage + "のダメージを与えた！");
 	}
